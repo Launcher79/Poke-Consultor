@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: linear-gradient(135deg, #ff1c1c, #ffcb05);
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 700px;
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .search-box {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 25px;
+  }
+  
+  .search-box input {
+    flex: 1;
+    padding: 12px;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+    font-size: 16px;
+  }
+  
+  .search-box button {
+    padding: 12px 20px;
+    border: none;
+    background: #ff1c1c;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .search-box button:hover {
+    background: #d40000;
+  }
+  
+  .pokemon-card {
+    text-align: center;
+  }
+  
+  .pokemon-card img {
+    width: 200px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  #pokemonTypes {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px 0;
+  }
+  
+  .type {
+    padding: 5px 12px;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 10px 0 20px;
+  }
+  
+  li {
+    padding: 5px 0;
+  }
+  
+  #errorMessage {
+    color: red;
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bold;
+  }
+  
+  /* Colores por tipo */
+  
+  .fire { background: #f08030; }
+  .water { background: #6890f0; }
+  .grass { background: #78c850; }
+  .electric { background: #f8d030; }
+  .psychic { background: #f85888; }
+  .ice { background: #98d8d8; }
+  .dragon { background: #7038f8; }
+  .dark { background: #705848; }
+  .fairy { background: #ee99ac; }
+  .normal { background: #a8a878; }
+  .fighting { background: #c03028; }
+  .flying { background: #a890f0; }
+  .poison { background: #a040a0; }
+  .ground { background: #e0c068; }
+  .rock { background: #b8a038; }
+  .bug { background: #a8b820; }
+  .ghost { background: #705898; }
+  .steel { background: #b8b8d0; }

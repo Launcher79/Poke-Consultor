@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Poké-Consultor Avanzado</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <h1>Poké-Consultor Avanzado</h1>
+
+    <div class="search-box">
+      <input type="text" id="pokemonInput" placeholder="Nombre o ID">
+      <button id="searchBtn">Buscar</button>
+    </div>
+
+    <div id="pokemonCard" class="pokemon-card hidden">
+
+      <h2 id="pokemonName"></h2>
+
+      <img id="pokemonImage" src="" alt="Pokemon">
+
+      <p><strong>ID:</strong> <span id="pokemonId"></span></p>
+
+      <div>
+        <strong>Tipos:</strong>
+        <div id="pokemonTypes"></div>
+      </div>
+
+      <div>
+        <strong>Habilidades:</strong>
+        <ul id="pokemonAbilities"></ul>
+      </div>
+
+      <div>
+        <strong>Estadísticas:</strong>
+        <ul id="pokemonStats"></ul>
+      </div>
+
+      <div>
+        <strong>Movimientos:</strong>
+        <ul id="pokemonMoves"></ul>
+      </div>
+
+      <div>
+        <strong>Linea Evolutiva:</strong>
+        <ul id="pokemonEvolutions"></ul>
+      </div>
+
+    </div>
+
+    <p id="errorMessage"></p>
+
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
